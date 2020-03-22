@@ -1,5 +1,13 @@
 {
   "name": "WalletPayApp",
-  "integrations": {},
-  "type": "angular"
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/express.asmx",
+      "proxyUrl": "https://certtransaction.elementexpress.com/express.asmx"
+    }
+  ]
 }

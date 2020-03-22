@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgxSoapService, Client, ISoapMethodResponse } from 'ngx-soap';
 
 @Component({
   selector: 'app-tab2',

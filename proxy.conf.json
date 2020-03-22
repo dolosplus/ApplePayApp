@@ -1,0 +1,7 @@
+{
+    "/": {
+      "target": "https://certtransaction.elementexpress.com",
+      "secure": false,
+      "changeOrigin": "true"
+    }
+  }
