@@ -16,16 +16,16 @@ export class Tab1Page {
 
   items: any = [
     {
-      label: '3 x Basket Items',
-      amount: 49.99
+      label: 'April 2020 - Soccer Season',
+      amount: 25.00
     },
     {
-      label: 'Next Day Delivery',
-      amount: 3.99
+      label: 'CA Tax',
+      amount: 2.50
     },
     {
-      label: 'My Fashion Company',
-      amount: 53.98
+      label: 'TOTAL: Fantasy Soccer League',
+      amount: 27.50
     }
   ];
 
@@ -150,13 +150,13 @@ export class Tab1Page {
     try {
       let order: any = {
         items: this.items,
-        shippingMethods: this.shippingMethods,
+        //shippingMethods: this.shippingMethods,
         merchantIdentifier: this.merchantIdentifier,
         currencyCode: this.currencyCode,
         countryCode: this.countryCode,
         billingAddressRequirement: this.billingAddressRequirement,
         shippingAddressRequirement: this.shippingAddressRequirement,
-        shippingType: this.shippingType,
+        //shippingType: this.shippingType,
         merchantCapabilities: this.merchantCapabilities,
         supportedNetworks: this.supportedNetworks
       }
